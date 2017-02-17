@@ -36,7 +36,7 @@ Drill saves storage plugin configurations in a temporary directory (embedded mod
      drill.exec: {
      	cluster-id: "drillbits1",
      	zk.connect: "localhost:2181",
-     	sys.store.provider.local.path="/mypath"
+     	sys.store.provider.local.path: "/mypath"
      }
 
 <!-- Enabling authorization to protect this data through the Web Console and REST API does not include protection for the data in the tmp directory or in ZooKeeper. 
